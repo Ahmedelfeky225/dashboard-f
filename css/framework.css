@@ -1,0 +1,421 @@
+:root{
+    --blue-color:#0075ff;
+    --blue-alt-color:#0d69d5;
+    --orange-color:#f59e0b;
+    --green-color:#22c55e;
+    --red-color:#f44336;
+    --grey-color:#888;
+     --purple-color:#9C27B0;
+      --gray-color-alt:#777;
+}
+/*Start flexbox*/
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.js-center{
+    justify-content: center;
+}
+.flex-wr{
+    flex-wrap: wrap;
+}
+.flex-1{
+flex:1;
+}
+.justify-space-btw{
+    display: flex;
+    justify-content: space-between;
+}
+.justify-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+.fully-w{
+        width: 100%;
+}
+.fully-h{
+    height: 100%;
+}
+.d-grid{
+    display: grid;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-40{
+    gap: 40px;
+}
+.gap-100{
+    gap: 100px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-5{
+    gap: 5px;
+}
+.d-block{
+    display: block;
+}
+@media (max-width:767px) {
+    .block-element{
+    display: block;
+    }
+    .hide-element{
+        display: none;
+    }
+}
+/*End Flexbox*/
+/*Start Padding + Margin*/
+.pad-0{
+    padding: 0;
+}
+.pad-2{
+padding:2px;
+}
+.pad-5{
+    padding: 5px;
+}
+.pad-10{
+    padding:10px;
+}
+.pad-15{
+    padding: 15px;
+}
+.pad-20{
+    padding: 20px;
+}
+.pad-t{
+    padding-top: 0;
+}
+.pad-t-10{
+    padding-top: 10px;
+}
+.pad-t-15{
+    padding-top: 15px;
+}
+.pad-t-20{
+    padding-top: 20px;
+}
+.pad-b-10{
+    padding-bottom: 10px;
+}
+.pad-b-15{
+    padding-bottom: 15px;
+}
+.pad-b-20{
+    padding-bottom: 20px;
+}
+.pad-b-30{
+    padding-bottom: 30px;
+}
+.padd-left{
+    padding-left: 15px;
+}
+.pad-l-r-5{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.pad-l-r{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pad-l-r-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.m-0{
+    margin: 0px;
+}
+.m-t-0{
+    margin-top: 0;
+}
+.margin{
+   margin: 5px 0px 10px 0px;
+}
+.m-20{
+    margin: 20px;
+}
+.m-15{
+    margin: 15px;
+}
+.margin-auto{
+    margin: 10px auto 0;
+}
+.margin-15-t-b{
+    margin: 15px 0;
+}
+.margin-t{
+    margin-top: 0;
+}
+.margin-t-10{
+    margin-top: 10px;
+}
+.margin-t-20{
+    margin-top: 20px;
+}
+.margin-t-5{
+    margin-top: 5px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.margin-b-8{
+    margin-bottom: 8px;
+}
+.margin-b-10{
+    margin-bottom: 10px;
+}
+.margin-b-15{
+    margin-bottom: 15px;
+}
+.margin-t-b-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.margin-b-20{
+    margin-bottom: 20px;
+}
+.margin-b-25{
+    margin-bottom: 25px;
+}
+.margin-b-30{
+    margin-bottom: 30px;
+}
+.margin-b-40{
+    margin-bottom: 40px;
+}
+.m-l-5{
+    margin-left: 5px;
+}
+
+.margin-l-r-10{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+.ma-left{
+    margin-left: 15px;
+}
+.margin-l-r{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.margin-b-5{
+margin-bottom: 5px;
+}
+.l-h{
+    line-height: 2;
+}
+.l-h--half{
+    line-height: 1.7;
+}
+.p-r-8{
+    padding-right: 8px;
+}
+/*End Padding + Margin*/
+/*Start color*/
+.bg-ececec{
+    background-color: #ececec;
+}
+.bg-white{
+    background-color: white;
+}
+.color-b{
+    color: black;
+}
+.color-gray{
+    color: var(--grey-color);
+}
+.color-gray-alt{
+    color: var(--gray-color-alt);
+}
+.bg-gray{
+    background-color: var(--grey-color);
+}
+.color-white{
+    color: white;
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.color-blue{
+   color: var(--blue-color);
+}
+.color-green{
+   color: var(--green-color);
+}
+.purple-color{
+    color: var(--purple-color);
+}
+.bg-purple{
+    background-color: purple;
+}
+.bg-red{
+    background-color: var(--red-color);
+}
+.orange-color{
+    color: var(--orange-color);
+}
+.bg-orange{
+    background-color:var(--orange-color);
+}
+.green-color{
+    color: var(--green-color);
+}
+.bg-green{
+    background-color: var(--green-color);
+}
+.blue-color{
+    color: var(--blue-color);
+}
+.red-color{
+    color: var(--red-color);
+}
+/*End Color*/
+/*start font*/
+.font-s{
+    font-size: 14px;
+}
+.font-s-13{
+    font-size: 13px;
+}
+.font-s-15{
+    font-size: 15px;
+}
+.font-s-16{
+    font-size: 16px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-25{
+    font-size: 27px;
+}
+.font-40{
+    font-size:40px;
+}
+.font-w{
+    font-weight: bold;
+}
+.font-w-500{
+    font-weight:500;
+}
+.font-normal{
+    font-weight: normal;
+}
+.text-c{
+    text-align: center;
+}
+.text-r{
+    text-align: right;
+}
+.opcit{
+    opacity: 0.4;
+}
+.w-fit{
+    width: fit-content;
+}
+@media (max-width:767px) {
+    .text-c-mobile{
+text-align: center;
+    }
+    .font-s-mobile{
+        font-size: 23px;
+    }
+}
+.resize-0{
+resize: none;
+}
+.ov-h{
+    overflow: hidden;
+}
+/*End Font*/
+/*Start border*/
+.border-r-6{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.border-r-10{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.radius-half{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.border-lr{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.border-none{
+    border: none;
+}
+.border-ccc{
+        border: 1px solid #ccc;
+}
+.border-top-bottom{
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+}
+.border-bottom{
+  border-bottom: 1px solid #ececec;
+}
+.border-top{
+    border-top: 1px solid #ececec;
+}
+/*End border*/
+/*Start position*/
+.pos-relative{
+    position: relative;
+}
+/*End position*/
+/*Start Color*/
+
+/*End Color*/
+/*Start Component*//*معناها ان كذا خاصيه هستخدمها مع بعض*/
+.center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space-between{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+/*كومبوننت لكل الازرار*/
+.btn-shape{
+    padding: 4px 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+/*End Component*/
+.crs{
+    cursor: pointer;
+}
+.box-sh{
+    box-shadow: 0 0 3px black;
+}

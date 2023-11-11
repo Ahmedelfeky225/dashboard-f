@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/framework.css">
+<link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet" href="css/Normalize.css">
+<!--Font google(open sans)-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&family=Jomhuria&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Quicksand:wght@300;500&family=Red+Hat+Display:ital,wght@0,300;0,500;0,600;1,600;1,800;1,900&family=Roboto:ital,wght@1,100&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<title>dashboard</title>
+</head>
+<body>
+<div class="page d-flex">
+    <div class="sidebar bg-white pad-20 pos-relative">
+     <h3 class="margin-t text-c pos-relative">Elfeky</h3>
+     <ul>
+        <li>
+            <a href="index.html" class=" active color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-solid fa-chart-bar fa-fw"></i>
+            <span class="padd-left">dashboard</span></a>
+        </li>
+        <li>
+          <a href="setting.html" class=" color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span  class="padd-left">Settings</span></a>
+        </li>
+        <li>
+            <a href="profile.html" class="  color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span  class="padd-left">Profile</span></a>
+        </li>
+        <li>
+            <a href="projects.html" class="  color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span  class="padd-left">Projects</span></a>
+        </li>
+        <li>
+            <a href="courses.html" class="  color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span class="padd-left">Courses</span></a>
+        </li>
+        <li>
+            <a href="friends.html" class="  color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-solid fa-user-group fa-fw"></i>
+            <span class="padd-left">Friends</span></a>
+        </li>
+        <li>
+            <a href="files.html" class=" color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-regular fa-file fa-fw"></i>
+            <span class="padd-left">Files</span></a>
+        </li>
+        <li>
+          <a href="plans.html" class=" color-b  font-s pad-10 border-r-6 d-flex align-center">
+          <i class="fa-solid fa-circle-info fa-fw"></i>
+            <span class="padd-left">Plans</span>
+            </a>
+        </li>
+
+     </ul>
+    </div>
+    <div class="content fully-w ">
+        <div class="header bg-white space-between pad-15 ">
+             <div class="input pos-relative ">
+                <input type="search" class="border-r-10 pad-10 border-none border-ccc" placeholder="Type A keyword">
+            </div>
+             <div class="d-flex align-center">
+                <span class="notify pos-relative"><i class="fa-regular fa-bell fa-lg "></i></span>
+                <img class="ma-left" src="images/avatar.png" alt="">
+             </div>
+   
+            </div>
+            <h1 class="pos-relative">
+                Dashboard
+            </h1>
+        <div class="wrapper d-grid gap-20 margin-l-r">
+        <div class="welcome text-c-mobile block-element border-r-10 bg-white"> 
+           <div class="head  justify-space-btw pad-20  bg-ececec  border-lr">
+            <div class="data text-c-mobile ">
+                 <h2 class="margin font-25">welcome</h2>
+            <span class="color-gray">Elfeky</span>
+            </div>
+            <img src="images/welcome.png" class="hide-element" alt="">
+           </div>
+           <img src="images/avatar.png"  class="avatar">
+           <div class="details margin-t-b-20 pad-20 justify-space-around pos-relative text-c block-element">
+            <div>Ahmed Elfeky<span class="color-gray font-s d-block margin-t-10">Developer</span></div>
+            <div>80<span class="color-gray font-s d-block margin-t-10">Projects</span></div>
+            <div>$8500<span class="color-gray font-s d-block margin-t-10">Earned</span></div>
+           </div>
+          <a href="profile.html" class="visit d-block w-fit bg-blue font-s color-white border-r-6  btn-shape">Profile</a>
+        </div>
+        <div class="quick-draft  pad-20 bg-white border-r-10">
+            <div class="data">
+                <h2 class="margin">Quick-draft</h2>
+                <span class="color-gray margin-b-20 d-block">Write A draft For Your ideas</span>
+            </div>
+            <form action="" >
+                 <input class=" fully-w margin-b-20 pad-10 bg-ececec border-none border-r-6" type="text" placeholder="Title">
+                <textarea class=" fully-w margin-b-20 pad-10 bg-ececec border-none border-r-6" placeholder="Your Thought"></textarea>
+              <input class="save d-block w-fit border-none border-r-6 bg-blue color-white font-s btn-shape" type="submit" value="save">
+            </form>
+        </div>
+        <!--Start Yearly-Target-->
+           <div class="Yearly-Target bg-white pad-20 border-r-10">
+            <h2 class="margin">Yearly Targets</h2>
+            <span class="font-s-15 color-gray margin-b-20 d-block">Targets Of The Year</span>
+            <div class="box1 center-flex margin-b-20">
+                <div class="square1  center-flex green-color">
+                   <i class="fa-solid fa-money-bill"></i>
+                </div>
+                <div class="ma-left">
+                    <div class="margin font-s-15 color-gray">Money</div>
+                    <h4 class="margin">$20.000</h4>
+                    <div><span style="width:80%" data-progress="80%"></span></div>
+                </div>
+            </div>
+            <div class="box1 center-flex margin-b-20">
+                <div class="square2 center-flex"><i class="fa-solid fa-terminal orange-color"></i></div>
+                <div class="ma-left">
+                    <div class="margin font-s-15 color-gray">Projects</div>
+                    <h4 class="margin">5</h4>
+                    <div><span style="width:70%" data-progress="70%"></span></div>
+                </div>
+            </div>
+            <div class="box1 center-flex">
+                <div class="square3 center-flex"> <i class="fa-solid fa-people-group purple-color "></i></div>
+                <div class="ma-left">
+                    <div class="margin font-s-15 color-gray">Team</div>
+                    <h4 class="margin">12</h4>
+                    <div><span style="width:65%" data-progress="65%"></span></div>
+                </div>
+            </div>
+           </div>
+            <!--End Yearly-Target-->
+            <!--Start Tickets-->
+            <div class="tickets bg-white pad-20 border-r-10">
+                <h2 class="margin">Tickets Statistics</h2>
+                <span class="color-gray font-s-15 d-block margin-b-20">Everything About Support Tickets</span>
+                <div class="main center-flex text-c gap-20 margin-b-20 flex-wr">
+                    <div class="box1 border-ccc border-r-10 pad-20">
+                        <i class="fa-solid fa-square-poll-horizontal orange-color fa-2x"></i>
+                        <h2 class="margin-15-t-b">3000</h2>
+                        <span class="font-s color-gray">Total</span>
+                    </div>
+                    <div class="box1 border-ccc border-r-10 pad-20">
+                        <i class="fa-solid fa-spinner fa-2x blue-color"></i>
+                        <h2 class="margin-15-t-b">500</h2>
+                        <span class="font-s color-gray" >Pending</span>
+                    </div>
+                </div>
+                   <div class="main center-flex text-c gap-20 flex-wr">
+                    <div class="box1 border-ccc border-r-10 pad-20">
+                        <i class="fa-regular fa-circle-check fa-2x green-color"></i>
+                        <h2 class="margin-15-t-b">1600</h2>
+                        <span class="font-s color-gray" >Closed</span>
+                    </div>
+                    <div class="box1 border-ccc border-r-10 pad-20">
+                        <i class="fa-solid fa-delete-left fa-2x red-color"></i>
+                        <h2 class="margin-15-t-b">100</h2>
+                        <span class="font-s color-gray">Deleted</span>
+                    </div>
+                </div>
+            </div>
+            <!--End Tickets-->
+            <!--Start Latest News-->
+            <div class="latest-news bg-white border-r-10 pad-20 text-c-mobile">
+                <h2 class="margin margin-b-20">Latest News</h2>
+                <div class="box">
+                    <div class="box1 d-flex align-center gap-20 margin-b-20  pad-b-20 border-bottom block-element ">
+                        <img class="border-r-6" src="images/saas.jpg" alt="">
+                         <div class="space-between">
+                            <div>
+                            <h4 class="margin">Created SASS Section</h4>
+                            <span class="font-s color-gray">New SASS Examples & Tutorials</span>
+                        </div>
+                        <div class="font-s-13  bg-ececec btn-shape w-fit margin-auto">1 Days Ago</div>
+                         </div>
+                    </div>
+                      <div class="box1 d-flex align-center gap-20 margin-b-20 pad-b-20 border-bottom block-element">
+                        <img class="border-r-6" src="images/new.jpg" alt="">
+                      <div  class="space-between">
+                          <div>
+                            <h4 class="margin">Changed The Design</h4>
+                            <span class="font-s color-gray">A Brand New Website Design</span>
+                        </div>
+                        <div class="font-s-13 bg-ececec btn-shape w-fit margin-auto">2 Days Ago</div>
+                      </div>
+                    </div>
+                      <div class="box1 d-flex align-center gap-20 margin-b-20 pad-b-20 border-bottom block-element">
+                        <img class="border-r-6" src="images/team.jpg" alt="">
+                       <div  class="space-between">
+                           <div>
+                            <h4 class="margin">Team Increased</h4>
+                            <span class="font-s color-gray">4 Developers Joined The Team</span>
+                        </div>
+                        <div class="font-s-13 bg-ececec btn-shape w-fit margin-auto">5 Days Ago</div>
+                       </div>
+                    </div>
+                      <div class="box1 d-flex align-center gap-20 block-element">
+                        <img class="border-r-6" src="images/payement.jpg" alt="">
+                        <div class="space-between">
+                            <div>
+                            <h4 class="margin">Added Payment Gateway</h4>
+                            <span class="font-s color-gray">Many New Payment Gateways Added</span>
+                        </div>
+                        <div class="font-s-13 bg-ececec btn-shape w-fit margin-auto">7 Days Ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Latest News-->
+            <!--Start Latest Task-->
+            <div class="latest-task bg-white border-r-10 pad-20">
+                <h2 class="margin margin-b-20">Latest Task</h2>
+                <div class="box">
+                    <div class="box1 space-between border-bottom pad-b-15 margin-b-15">
+                     <div>
+                        <h4 class="margin">Record One New Video</h4>
+                        <span class="color-gray">Record Python Create Exe Project</span>
+                     </div>
+                    <i class="fa-regular fa-trash-can"></i>
+                    </div>
+                    <div class="box1 space-between pad-b-15  margin-b-15 border-bottom">
+                     <div>
+                        <h4 class="margin"> Write Article</h4>
+                        <span class="color-gray">Write Low Level vs High Level Languages</span>
+                     </div>
+                     <i class="fa-regular fa-trash-can"></i>
+                    </div>
+                      <div class="box1 space-between pad-b-15 margin-b-15 border-bottom">
+                     <div>
+                        <h4 class="margin">Finish Project</h4>
+                        <span class="color-gray">Publish Academy Programming Project</span>
+                     </div>
+                     <i class="fa-regular fa-trash-can"></i>
+                    </div>
+                    <div class="box1 space-between pad-b-15 margin-b-15 border-bottom done ">
+                         <div>
+                        <h4 class="d-block color-gray font-w font-s-15 margin-b-8 opcit margin">Attend The Meeting</h4>
+                        <span class="color-gray opcit">Attend The Project Business Analysis Meeting</span>
+                     </div>
+                     <i class="fa-regular fa-trash-can opcit"></i>
+                    </div>
+                     <div class="box1 space-between ">
+                     <div>
+                        <h4 class="margin">Finish Lesson</h4>
+                        <span class="color-gray">Finish Teaching Flex Box</span>
+                     </div>
+                     <i class="fa-regular fa-trash-can"></i>
+                    </div>
+                </div>
+            </div>
+            <!--End Latest Task-->
+            <!--Start Search-->
+            <div class="search bg-white pad-20 border-r-10">
+                <h2 class="margin margin-b-30">Top Search Items</h2>
+                <div class="box">
+                    <div class="box1 space-between margin-b-30 color-gray">
+                        <div>Keyword</div>
+                        <span>Search Count</span>
+                    </div>
+                    <div class="box1 space-between margin-b-30">
+                        <div>Programming</div>
+                        <span class="bg-ececec font-s-13 btn-shape">220</span>
+                    </div>
+                    <div class="box1 space-between margin-b-30">
+                          <div>Html</div>
+                        <span class="bg-ececec font-s-13 btn-shape">37</span>
+                    </div>
+                    <div class="box1 space-between margin-b-30">
+                          <div>css</div>
+                        <span class="bg-ececec font-s-13 btn-shape">84</span>
+                    </div>
+                    <div class="box1 space-between margin-b-30">
+                          <div>JavaScript</div>
+                        <span class="bg-ececec font-s-13 btn-shape">188</span>
+                    </div>
+                    <div class="box1 space-between margin-b-30">
+                          <div>Bootstrap</div>
+                        <span class="bg-ececec font-s-13 btn-shape">36</span>
+                    </div>
+                    <div class="box1 space-between ">
+                          <div>React</div>
+                        <span class="bg-ececec font-s-13 btn-shape">120</span>
+                    </div>
+                </div>
+            </div>
+            <!--End Search-->
+            <!-- Start Uploads-->
+            <div class="upload bg-white pad-20 border-r-10">
+                <h2 class="margin margin-b-20">Latest Uploads</h2>
+                <div class="box1 d-flex align-center  pad-b-10 margin-b-10 border-bottom ">
+                    <img src="images/pdf.svg" alt="">
+                    <div  class="space-between">
+                        <div>
+                            <div class="margin-b-5">my-file.pdf</div>
+                            <span class="font-s-15 color-gray">Efeky</span>
+                        </div>
+                         <span class="bg-ececec btn-shape font-s">2.5mb</span>
+                    </div>
+                </div>
+                   <div class="box1 d-flex align-center pad-b-10 margin-b-10 border-bottom ">
+                    <img src="images/avi.svg" alt="">
+                    <div class="space-between">
+                        <div>
+                            <div class="margin-b-5">My-Video-File.avi</div>
+                            <span class="font-s-15 color-gray">Admin</span>
+                        </div>
+                        <span class="bg-ececec btn-shape font-s">6.5mb</span>
+                    </div>
+                </div>
+                   <div class="box1 d-flex align-center pad-b-10 margin-b-10 border-bottom ">
+                    <img src="images/psd.svg" alt="">
+                    <div class="space-between">
+                        <div>
+                            <div class="margin-b-5">My-Psd-File.pdf</div>
+                            <span class="font-s-15 color-gray">Ahmed</span>
+                        </div>
+                        <span class="bg-ececec btn-shape font-s">4.5mb</span>
+                    </div>
+                </div>
+                   <div class="box1 d-flex align-center pad-b-10 margin-b-10 border-bottom ">
+                    <img src="images/zip.svg" alt="">
+                    <div class="space-between">
+                        <div>
+                            <div class="margin-b-5">My-Zip-File.pdf</div>
+                            <span class="font-s-15 color-gray">User</span>
+                        </div>
+                        <span class="bg-ececec btn-shape font-s">5.5mb</span>
+                    </div>
+                </div>
+                   <div class="box1 d-flex align-center  pad-b-10 margin-b-10 border-bottom ">
+                    <img src="images/dll.svg" alt="">
+                    <div class="space-between">
+                        <div>
+                            <div class="margin-b-5">My-DLL-File.pdf</div>
+                            <span class="font-s-15 color-gray">Admin</span>
+                        </div>
+                        <span class="bg-ececec btn-shape font-s">1.5mb</span>
+                    </div>
+                </div>
+                   <div class="box1 d-flex align-center  ">
+                    <img src="images/eps.svg" alt="">
+                    <div class="space-between">
+                        <div>
+                            <div class="margin-b-5">My-Eps-File.pdf</div>
+                            <span class="font-s-15 color-gray">Designer</span>
+                        </div>
+                        <span class="bg-ececec btn-shape font-s">3.6mb</span>
+                    </div>
+                </div>
+            </div>
+            <!--End Uploads-->
+            <!--start latest project-->
+            <div class="project bg-white pad-20 border-r-10 pos-relative">
+                <h2 class=" font-s-mobile m-0 margin-b-20">Latest Project Progress</h2>
+                <ul class=" pos-relative">
+                    <li class=" d-flex align-center done margin-b-25">Got The Project</li>
+                    <li class=" d-flex align-center done margin-b-25">Started The Project</li>
+                    <li class="  d-flex align-center done margin-b-25">The Project About to finish</li>
+                    <li class="  d-flex align-center current margin-b-25">Test The Project</li>
+                    <li class="d-flex align-center">Finish The Project & Get Money</li>
+                </ul>
+               <img class="hide-element" src="images/project.png" alt="">
+            </div>
+           <!--End latest project-->
+           <!--Start Reminders-->
+           <div class="Reminders bg-white border-r-10 pad-20">
+            <h2 class="m-0 margin-b-25">Reminders</h2>
+            <ul class="m-0">
+                <li class="d-flex align-center margin-b-15">
+                    <span class="radius-half bg-green d-block mr-15"></span>
+                    <div class="padd-left">
+                        <p class="font-w margin-b-5 m-t-0 font-s-15">Check My Task Test</p>
+                        <span class="font-s-13 color-gray">29/10/2023 - 4:01am</span>
+                    </div>
+                </li>
+                 <li class="d-flex align-center margin-b-15">
+                    <span class=" radius-half bg-orange  d-block mr-15"></span>
+                    <div class="padd-left ">
+                        <p class="font-w margin-b-5   m-t-0 font-s-15">Check My Project</p>
+                        <span class="font-s-13 color-gray">30/10/2023 - 12:00am</span>
+                    </div>
+                </li>
+                 <li class="d-flex align-center margin-b-15">
+                    <span class=" radius-half bg-purple d-block mr-15 "></span>
+                    <div class="padd-left">
+                        <p class="font-w  margin-b-5   m-t-0 font-s-15">Call All My Client</p>
+                        <span class="font-s-13 color-gray">30/10/2023 - 2:04am</span>
+                    </div>
+                </li>
+                 <li class="d-flex align-center">
+                    <span class="radius-half bg-gray d-block mr-15"></span>
+                    <div class="padd-left">
+                        <p class="font-w margin-b-5  m-t-0 font-s-15">Finish The Development Workshop</p>
+                        <span class="font-s-13 color-gray">31/10/2023 - 11:02am</span>
+                    </div>
+                </li>
+            </ul>
+           </div>
+           <!--End Reminders-->
+           <!--Start Latest Post-->
+           <div class="latest-post bg-white pad-20 border-r-10">
+            <h2 class="m-0 margin-b-20">Latest Post</h2>
+            <div class="d-flex align-center margin-b-20">
+                <img  class="radius-half mr-15" src="images/a.jpg" alt="">
+                <div>
+                    <div class="font-w margin-b-10 font-18">Ahmed Elfeky</div>
+                    <span class="color-gray font-w-500 ">About 2 Hours Ago</span>
+                </div>
+            </div>
+            <p class="pad-t-20 pad-b-20 l-h border-top-bottom font-w-500 ">
+                You Can Fool All Of The People Some Of The Time, And Some Of
+                 The People All Of The Time, But You Can't Fool All Of The People
+                  All Of The Time.
+            </p>
+            <div class="icons justify-space-around crs">
+                <i class="fa-solid fa-share-nodes color-gray font-s"></i>
+                    <span class="color-gray font-s">14.7K <i class="fa-regular fa-heart"></i></span>
+                    <span class="color-gray font-s">4.112 <i class="fa-solid fa-retweet"></i></span>
+                    <span class="color-gray font-s">165 <i class="fa-regular fa-comment"></i></span>
+            </div>
+           </div>
+           <!--End Latest Post-->
+           <!--Start Social Media-->
+           <div class="social-media bg-white border-r-10 pad-20">
+            <h2 class="m-0 margin-b-20">Social Media Stats</h2>
+            <div class="box1 margin-b-10  d-flex align-center">
+                <i class="fa-brands fa-twitter  bg-blue fa-2x color-white mr-15 pad-15"></i>
+              <div class=" space-between flex-1">
+                  <span class="blue-color font-w-500">90K Followers</span>
+                <a class="mr-15 bg-blue color-white btn-shape font-s" href="https://twitter.com/ahmedel08252012">Follow</a>
+              </div>
+            </div>
+            <div class="box1 margin-b-10 d-flex align-cente">
+                <i class="fa-brands fa-facebook-f  bg-blue fa-2x color-white mr-15 pad-l-r pad-t-15 pad-b-15"></i>
+                <div class=" space-between flex-1">
+                     <span class="blue-color font-w-500">2M Like</span>
+                <a class="mr-15 bg-blue color-white btn-shape font-s" href="https://www.facebook.com/profile.php?id=100005170065873&mibextid=ZbWKwL">Like</a>
+                </div>
+            </div>
+            <div class="box1 margin-b-10 bg-green d-flex align-center">
+                <i class="fa-brands fa-github color-b  fa-2x bg-green mr-15 d-block pad-15"></i>
+                <div class=" space-between flex-1">
+                    <span class="green-color font-w-500">39 Repositories</span>
+                <a  class="mr-15 bg-green font-s color-white btn-shape" href="https://github.com/Ahmedelfeky225" target="_blank">Click</a>
+                </div>
+            </div>
+            <div class="box1 d-flex align-center">
+                <i class="fa-brands fa-linkedin-in bg-blue color-white fa-2x mr-15 pad-15"></i>
+                <div class="space-between flex-1">
+                    <span class="blue-color font-w-500">1110 Friends</span>
+                <a  class="mr-15 bg-blue color-white btn-shape font-s" href="https://www.linkedin.com/in/ahmed-elfeky-351283250/" target="_blank">Follow</a>
+                </div>
+            </div>
+           </div>
+           <!--End Social Media-->
+           </div>
+           <!--start Project table-->
+           <div class="projects bg-white pad-20 border-r-10 bg-white m-20">
+            <h2 class="margin margin-b-20">Projects</h2>
+           <div class="respnsive-table">
+             <table class="fully-w bg-white font-s-15">
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Finish Date</td>
+                        <td>Client</td>
+                        <td>Price</td>
+                        <td>Team</td>
+                        <td>Status</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ministry Wikipedia</td>
+                        <td>10 May 2022	</td>
+                        <td>Ministry</td>
+                        <td>$5300</td>
+                        <td class="d-flex">
+                            <img src="images/team-01.png" alt="">
+                            <img src="images/team-02.png" alt="">
+                            <img src="images/team-03.png" alt="">
+                            <img src="images/team-04.png" alt="">
+                        </td>
+                        <td><span class="font-s-13 bg-gray btn-shape color-white">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>Elfeky Shop</td>
+                        <td>12 Oct 2021</td>
+                        <td>Elzero Company</td>
+                        <td>$1500</td>
+                        <td class="d-flex">
+                            <img src="images/team-01.png" alt="">
+                            <img src="images/team-02.png" alt="">
+                            <img src="images/team-03.png" alt="">
+                        </td>
+                        <td><span class="font-s-13 bg-blue color-white btn-shape">In Progress</span></td>
+                    </tr>
+                         <tr>
+                        <td>Bouba App</td>
+                        <td>05 Sep 2021</td>
+                        <td>Bouba</td>
+                        <td>$800</td>
+                        <td class="d-flex">
+                            <img src="images/team-01.png" alt="">
+                            <img src="images/team-02.png" alt="">
+                        </td>
+                        <td><span class="bg-green color-white font-s-13 btn-shape">Completed</span></td>
+                    </tr>
+                     <tr>
+                        <td>Mahmoud Website</td>
+                        <td>22 May 2021</td>
+                        <td>Mahmoud</td>
+                        <td>$600</td>
+                        <td class="d-flex">
+                            <img src="images/team-01.png" alt="">
+                            <img src="images/team-02.png" alt="">
+                        </td>
+                        <td><span class="bg-green color-white  font-s-13 btn-shape">Completed</span></td>
+                    </tr>
+                         <tr>
+                        <td>Sayed Website</td>
+                        <td>24 May 2021</td>
+                        <td>Sayed</td>
+                        <td>$300</td>
+                        <td class="d-flex">
+                            <img src="images/team-01.png" alt="">
+                            <img src="images/team-02.png" alt="">
+                        </td>
+                        <td><span class="bg-red color-white font-s-13 btn-shape">Rejected</span></td>
+                    </tr>
+                          <tr>
+                        <td>Arena Application</td>
+                        <td>01 Mar 2021</td>
+                        <td>Arena Company</td>
+                        <td>$2600</td>
+                        <td class="d-flex">
+                            <img src="images/team-01.png" alt="">
+                            <img src="images/team-02.png" alt="">
+                            <img src="images/team-03.png" alt="">
+                            <img src="images/team-04.png" alt="">
+                        </td>
+                        <td><span class="bg-green color-white btn-shape font-s-13">Completed</span></td>
+                    </tr>
+                </tbody>
+            </table>
+           </div>
+           <!--End Project table--->
+        </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/framework.css">
+<link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet" href="css/Normalize.css">
+<!--Font google(open sans)-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&family=Jomhuria&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Quicksand:wght@300;500&family=Red+Hat+Display:ital,wght@0,300;0,500;0,600;1,600;1,800;1,900&family=Roboto:ital,wght@1,100&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<title>Files</title>
+</head>
+<body>
+<div class="page d-flex">
+    <div class="sidebar bg-white pad-20 pos-relative">
+     <h3 class="margin-t text-c pos-relative">Elfeky</h3>
+     <ul>
+        <li>
+            <a href="index.html" class="color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-solid fa-chart-bar fa-fw"></i>
+            <span class="padd-left">dashboard</span></a>
+        </li>
+        <li>
+          <a href="setting.html" class="color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span  class="padd-left">Settings</span></a>
+        </li>
+        <li>
+            <a href="profile.html" class="color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span  class="padd-left">Profile</span></a>
+        </li>
+        <li>
+            <a href="projects.html" class="color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span  class="padd-left">Projects</span>
+        </a>
+        </li>
+        <li>
+            <a href="courses.html" class=" color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span class="padd-left">Courses</span></a>
+        </li>
+        <li>
+            <a href="friends.html" class="color-b font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-solid fa-user-group fa-fw"></i>
+            <span class="padd-left">Friends</span></a>
+        </li>
+        <li>
+            <a href="files.html" class="active color-b  font-s pad-10 border-r-6 d-flex align-center">
+            <i class="fa-regular fa-file fa-fw"></i>
+            <span class="padd-left">Files</span></a>
+        </li>
+        <li>
+          <a href="plans.html" class=" color-b  font-s pad-10 border-r-6 d-flex align-center">
+          <i class="fa-solid fa-circle-info fa-fw"></i>
+            <span class="padd-left">Plans</span>
+            </a>
+        </li>
+
+     </ul>
+    </div>
+    <div class="content fully-w">
+        <div class="header bg-white space-between pad-15 ">
+             <div class="input pos-relative ">
+                <input type="search" class="border-r-10 pad-10 border-none border-ccc" placeholder="Type A keyword">
+            </div>
+             <div class="d-flex align-center">
+                <span class="notify pos-relative"><i class="fa-regular fa-bell fa-lg "></i></span>
+                <img class="ma-left" src="images/avatar.png" alt="">
+             </div>
+            </div>
+            <h1 class="pos-relative">
+                Files
+            </h1>
+            <div class="file d-flex m-20 gap-20">
+                               <div class="file-contentt border-r-6  pad-20 bg-white">
+                    <h2 class="m-0 margin-b-20">Files Statistics</h2>
+                     <div class="boxes d-flex align-center margin-b-15 border-ccc border-r-6 pad-10">
+                        <span class=" d-block pad-10"><i class="fa-solid fa-file-pdf fa-beat-fade font-s-13"></i></span>
+                        <div class="ma-left font-s-13">
+                            <div class="margin-b-8">PDF Files</div>
+                            <span>99 Files</span>
+                        </div>
+                        <span  class=" flex-1 text-r font-s-13 color-gray">6.5GB</span>
+                    </div>
+                       <div class="boxes d-flex align-center border-ccc border-r-6 margin-b-15 pad-10">
+                        <span class="d-block pad-10"><i class="fa-solid fa-file-csv fa-beat font-s-13"></i></span>
+                        <div class="ma-left font-s-13">
+                            <div class="margin-b-8">CSV Files</div>
+                            <span>120 Files</span>
+                        </div>
+                        <span  class=" flex-1 text-r font-s-13 color-gray">12.5GB</span>
+                    </div>
+                       <div class="boxes d-flex align-center border-ccc border-r-10 margin-b-15 pad-10">
+                        <span  class="d-block pad-10"><i class="fa-solid fa-images fa-beat font-s-13 "></i></span>
+                        <div class="ma-left font-s-13">
+                            <div class="margin-b-8 font-w-500">Images</div>
+                            <span>99 Files</span>
+                        </div>
+                        <span  class=" flex-1 text-r font-s-13 color-gray">200MB</span>
+                    </div>
+                       <div class="boxes d-flex align-center border-ccc border-r-6 margin-b-15 pad-10">
+                        <span  class=" d-block pad-10"><i class="fa-solid fa-file-word fa-beat font-s-13"></i></span>
+                        <div class="ma-left font-s-13">
+                            <div class="margin-b-8">Word Files</div>
+                            <span>23 Files</span>
+                        </div>
+                        <span  class=" flex-1 text-r font-s-13 color-gray">1.5GB</span>
+                    </div>
+                    <div class="upload bg-blue color-white font-s d-flex gap-10 align-center js-center w-fit ">
+                         <i class="fa-solid fa-angles-up font-s-13" style="color: #ffffff;"></i>
+                        <span>Upload</span>
+                    </div>
+                </div>
+                <div class="file-content d-grid ">
+                    <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6 ">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6 ">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6 ">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6 ">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6 ">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6 ">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                      <!--Start box1-->
+                    <div class="box1 bg-white pad-10 border-r-6">
+                        <i class="fa-solid fa-download color-gray"></i>
+                        <div class="img text-c margin-b-20">
+                            <img class="margin-b-15" src="images/pdf.svg" alt="">
+                            <div class="font-s m-l-5">my-file.pdf</div>
+                        </div>
+                        <span class="color-gray font-s pad-b-10 d-block">Elfeky</span>
+                        <div class="time space-between font-s-13 color-gray border-top pad-t-10">
+                            <span >04/11/2023</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <!--End box1-->
+                </div>
+            </div>
+            </div>
+            </div>
+</body>
+</html>
